@@ -11,6 +11,7 @@ import service.OdontologoService;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.List;
 
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -50,4 +51,14 @@ class OdontologoServiceTest {
     }
 
 
+    @Test
+    @DisplayName("Testear que se listen todos los odontologos")
+    void caso2(){
+        //DADO
+        List<Odontologo> odontologos;
+        //CUANDO
+        odontologos = OdontologoService.listarTodos();
+        // entonces
+        assertNotNull(odontologos);
 }
+    }

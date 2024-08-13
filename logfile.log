@@ -42,3 +42,7 @@ Invalid value "5" for parameter "columnIndex" [90008-230]
 [2024-08-12 21:19:58] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
 [2024-08-12 21:19:58] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
 [2024-08-12 21:19:58] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:22:53] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:22:53] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:22:53] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:22:53] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}

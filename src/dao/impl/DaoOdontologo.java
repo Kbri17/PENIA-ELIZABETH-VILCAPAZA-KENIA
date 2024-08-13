@@ -6,6 +6,8 @@ import model.Odontologo;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DaoOdontologo implements IDao<Odontologo> {
@@ -67,6 +69,35 @@ public class DaoOdontologo implements IDao<Odontologo> {
 
     @Override
     public List<Odontologo> listarTodos() {
-        return null;
+        Connection connection = null;
+        List<Odontologo> odontologos = new ArrayList<>();
+        Odontologo odontologoDesdeLaDB = null;
+        try{
+            connection = H2Connection.getConnection();
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(SELECT_ALL);
+            while (resultSet.next()){
+                Integer idDB = resultSet.getInt(1);
+                String nroMatricula = resultSet.getString(2);
+                String nombre = resultSet.getString(3);
+                String apellido = resultSet.getString(4);
+                LocalDate fechaEntradaServicio = resultSet.getDate(5).toLocalDate();
+                odontologoDesdeLaDB = new Odontologo(idDB,"GH09","Camilo","Perez");
+                // vamos cargando la lista de odontologos
+                odontologos.add(odontologoDesdeLaDB);
+                logger.info("odontologo "+ odontologoDesdeLaDB);
+            }
+
+        }catch (Exception e){
+            logger.error(e.getMessage());
+        }finally {
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                logger.error(e.getMessage());
+            }
+        }
+        return odontologos;
     }
-}
+    }
+

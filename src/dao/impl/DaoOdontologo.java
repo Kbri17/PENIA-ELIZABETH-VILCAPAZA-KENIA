@@ -73,15 +73,16 @@ public class DaoOdontologo implements IDao<Odontologo> {
         List<Odontologo> odontologos = new ArrayList<>();
         Odontologo odontologoDesdeLaDB = null;
         try{
+
             connection = H2Connection.getConnection();
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(SELECT_ALL);
+            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL);
+            ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()){
                 Integer idDB = resultSet.getInt(1);
                 String nroMatricula = resultSet.getString(2);
                 String nombre = resultSet.getString(3);
                 String apellido = resultSet.getString(4);
-                odontologoDesdeLaDB = new Odontologo(idDB,"GH09","Camilo","Perez");
+                odontologoDesdeLaDB = new Odontologo(idDB,nroMatricula,nombre,apellido);
                 // vamos cargando la lista de odontologos
                 odontologos.add(odontologoDesdeLaDB);
                 logger.info("odontologo "+ odontologoDesdeLaDB);

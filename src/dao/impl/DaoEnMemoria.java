@@ -21,9 +21,10 @@ public class DaoEnMemoria implements IDao<Odontologo> {
 
     @Override
     public List<Odontologo> listarTodos() {
+        logger.info("Listando todos los odontologos en memoria");
 
         for (Odontologo odontologo: odontologos) {
-            logger.info("Listando todos los odontologos en memoria" + odontologo);
+            logger.info(odontologo);
         }
         return odontologos;
     }

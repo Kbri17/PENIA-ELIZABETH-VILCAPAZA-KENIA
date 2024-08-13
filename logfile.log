@@ -67,3 +67,54 @@ Invalid value "5" for parameter "columnIndex" [90008-230]
 [2024-08-12 21:32:10] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
 [2024-08-12 21:32:10] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
 [2024-08-12 21:32:42] [ INFO ] [DaoOdontologo:87] odontologo Odontologo{id=1, nroMatricula='GH09', nombre='Camilo', apellido='Perez'}
+[2024-08-12 21:41:08] [ ERROR] [OdontologoServiceTest:32] La base de datos puede que ya esté siendo utilizada: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-230]
+[2024-08-12 21:41:31] [ ERROR] [OdontologoServiceTest:32] La base de datos puede que ya esté siendo utilizada: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-230]
+[2024-08-12 21:43:46] [ ERROR] [OdontologoServiceTest:32] La base de datos puede que ya esté siendo utilizada: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-230]
+[2024-08-12 21:48:05] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:48:05] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:48:05] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:48:05] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:49:41] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:49:41] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:49:41] [ INFO ] [DaoEnMemoria:24] Listando todos los odontologos en memoria
+[2024-08-12 21:49:41] [ INFO ] [DaoEnMemoria:27] Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:49:41] [ INFO ] [DaoEnMemoria:27] Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 22:03:00] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 22:03:00] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 22:03:00] [ INFO ] [DaoEnMemoria:24] Listando todos los odontologos en memoria
+[2024-08-12 22:03:00] [ INFO ] [DaoEnMemoria:27] Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 22:03:00] [ INFO ] [DaoEnMemoria:27] Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 22:03:29] [ ERROR] [OdontologoServiceTest:32] La base de datos puede que ya esté siendo utilizada: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-230]
+[2024-08-12 22:07:38] [ ERROR] [OdontologoServiceTest:32] La base de datos puede que ya esté siendo utilizada: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-230]
+[2024-08-12 22:13:54] [ ERROR] [OdontologoServiceTest:32] La base de datos puede que ya esté siendo utilizada: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/hp/Documents/Digital House/B5/PENIA-ELIZABETH-VILCAPAZA-KENIA/Database/odontologos.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-230]
+[2024-08-12 22:23:59] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 10:00:22] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=1, nroMatricula='GH09', nombre='Camilo', apellido='Perez'}
+[2024-08-13 10:01:57] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=1, nroMatricula='95062809', nombre='HENRY', apellido='TABARES'}
+[2024-08-13 10:02:10] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 10:02:17] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 10:02:41] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 10:03:02] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='987654', nombre='Carmen', apellido='Gutierrez'}
+[2024-08-13 10:03:02] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-13 10:03:02] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-13 10:03:02] [ INFO ] [DaoEnMemoria:24] Listando todos los odontologos en memoria
+[2024-08-13 10:03:02] [ INFO ] [DaoEnMemoria:27] Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-13 10:03:02] [ INFO ] [DaoEnMemoria:27] Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-13 11:29:30] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='987654', nombre='Carmen', apellido='Gutierrez'}
+[2024-08-13 11:29:30] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-13 11:29:30] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-13 11:29:30] [ INFO ] [DaoEnMemoria:24] Listando todos los odontologos en memoria
+[2024-08-13 11:29:30] [ INFO ] [DaoEnMemoria:27] Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-13 11:29:30] [ INFO ] [DaoEnMemoria:27] Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-13 11:29:42] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 11:29:42] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=1, nroMatricula='95062809', nombre='HENRY', apellido='TABARES'}
+[2024-08-13 11:29:42] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 11:30:40] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=1, nroMatricula='95062809', nombre='HENRY', apellido='TABARES'}
+[2024-08-13 11:31:19] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-13 11:31:20] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=1, nroMatricula='95062809', nombre='HENRY', apellido='TABARES'}
+[2024-08-13 11:31:20] [ INFO ] [DaoOdontologo:88] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}

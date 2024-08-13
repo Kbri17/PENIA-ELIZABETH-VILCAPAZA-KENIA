@@ -81,7 +81,6 @@ public class DaoOdontologo implements IDao<Odontologo> {
                 String nroMatricula = resultSet.getString(2);
                 String nombre = resultSet.getString(3);
                 String apellido = resultSet.getString(4);
-                LocalDate fechaEntradaServicio = resultSet.getDate(5).toLocalDate();
                 odontologoDesdeLaDB = new Odontologo(idDB,"GH09","Camilo","Perez");
                 // vamos cargando la lista de odontologos
                 odontologos.add(odontologoDesdeLaDB);

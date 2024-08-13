@@ -14,3 +14,19 @@ NOMBRE VARCHAR(50) NOT NULL,
 APELLIDO VARCHAR(50) NOT NULL
 ) [42101-230]
 [2024-08-12 20:40:25] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-12 20:47:46] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-12 20:48:50] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-12 20:48:58] [ INFO ] [DaoOdontologo:40] odontologo Odontologo{id=2, nroMatricula='HJ90', nombre='Paola', apellido='Vargas'}
+[2024-08-12 20:53:46] [ ERROR] [DaoOdontologo:92] Valor Invalido "5" para el parametro "columnIndex"
+Invalid value "5" for parameter "columnIndex" [90008-230]
+[2024-08-12 20:56:00] [ INFO ] [DaoOdontologo:87] odontologo Odontologo{id=1, nroMatricula='GH09', nombre='Camilo', apellido='Perez'}
+[2024-08-12 20:56:23] [ INFO ] [DaoOdontologo:87] odontologo Odontologo{id=1, nroMatricula='GH09', nombre='Camilo', apellido='Perez'}
+[2024-08-12 21:01:32] [ INFO ] [DaoOdontologo:87] odontologo Odontologo{id=1, nroMatricula='GH09', nombre='Camilo', apellido='Perez'}
+[2024-08-12 21:09:00] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='987654', nombre='Carmen', apellido='Gutierrez'}
+[2024-08-12 21:09:15] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:09:15] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:09:15] [ INFO ] [DaoEnMemoria:24] Listando todos los odontologos
+[2024-08-12 21:12:39] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:12:39] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria Odontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}
+[2024-08-12 21:12:39] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=1, nroMatricula='123456', nombre='Juan', apellido='Perez'}
+[2024-08-12 21:12:39] [ INFO ] [DaoEnMemoria:26] Listando todos los odontologos en memoriaOdontologo{id=2, nroMatricula='789012', nombre='Maria', apellido='Lopez'}

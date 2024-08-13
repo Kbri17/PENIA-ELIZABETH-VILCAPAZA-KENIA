@@ -11,6 +11,7 @@ import service.OdontologoService;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.List;
 
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -47,6 +48,17 @@ class OdontologoServiceTest {
         Odontologo odontologoDesdeDb = odontologoService.guardarOdontologo(odontologo);
         // entonces
         assertNotNull(odontologoDesdeDb);
+    }
+
+    @Test
+    @DisplayName("Testear que se listen todos los odontologos")
+    void caso2(){
+        //DADO
+        List<Odontologo> odontologos;
+        //CUANDO
+        odontologos = odontologoService.listarTodos();
+        // entonces
+        assertNotNull(odontologos);
     }
 
 
